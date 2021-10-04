@@ -10,3 +10,9 @@ Let's do this! --> [Click here](https://junghyunseo0128a.github.io/kNN-Practices
 * [bootstrap5](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
     * for responsive web
 * html, css, js
+
+## Best colors
+1. primary
+2. secondary
+
+I referred to [this place](https://getbootstrap.com/docs/5.0/utilities/colors/).
