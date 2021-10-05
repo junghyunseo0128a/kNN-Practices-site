@@ -26,22 +26,30 @@
     <div id="root"></div>
 
     <!--customed-->
-    <script type='text/babel' src="component/Navbar.js"></script>
+    <!--
+        <script type='text/babel' src="component/Navbar.js"></script>
     <script type='text/babel' src="component/Card.js"></script>
     <script type='text/babel' src="component/MiniCard.js"></script>
+    -->
+
+    <!--for github pages-->
+    <script type='text/babel' src="kNN-Practices-site/component/Navbar.js"></script>
+    <script type='text/babel' src="kNN-Practices-site/component/Card.js"></script>
+    <script type='text/babel' src="kNN-Practices-site/component/MiniCard.js"></script>
+
 
     <script type='text/babel'>
         function CreateReact(props) {
             return (
                 <div className='CreateReact'>
                     <Navbar />
-                    
+
                     <Card title='Step1: Set the characteristics.' />
                     <Card title='Step2: Input the characteristics.' />
                     <Card title='Step3: Setting parameters.' />
-                    <Card title='Step4: Predicting.' />    
-                    <Card title='선재야 고기먹자.' />  
-                    
+                    <Card title='Step4: Predicting.' />
+                    <Card title='선재야 고기먹자.' />
+
                 </div>
             );
         }
