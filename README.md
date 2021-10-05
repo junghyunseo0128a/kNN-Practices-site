@@ -16,3 +16,13 @@ Let's do this! --> [Click here](https://junghyunseo0128a.github.io/kNN-Practices
 2. secondary
 
 I referred to [this place](https://getbootstrap.com/docs/5.0/utilities/colors/).
+
+## The training process.
+1. Problem definition.
+2. Data acquisition. ←ㅡㅡㅡ Data trimming.
+3. Visualizing data.  ㅡㅡㅡㅡㅡㅡ⤴
+4. Separating data.
+5. Parameter "K" setting. ←ㅡㅡㅡㅡㅡㅡㅡ Reset for optimal parameters.
+6. Comparing predicted and actual values. ㅡㅡㅡ⤴
+7. Test it myself.
+8. Save or share projects.
