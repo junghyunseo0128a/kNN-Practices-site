@@ -3,13 +3,15 @@ function ToolsBar(props) {
         <div class='ToolsBar'>
             <div class='left'>
                 <a href='index.html'>Home</a>
+                <a href='#'>Docs</a>
+                <a href='#'>Examples</a>
                 <a href='#'>My projects</a>
-                <a href='#'>Documents</a>
+
             </div>
 
             <div class='right'>
-                <button>Sign in</button>
-                <button>Sign up</button>
+                <a href='login.html'>Sign in</a>
+                <a href='#'>Sign up</a>
             </div>
         </div>
     );

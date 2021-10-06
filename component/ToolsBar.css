@@ -25,11 +25,12 @@
 .ToolsBar > .left > a {
     text-align: center;
     height: 30px;
-    width: 90px;
+    margin: 0 2%;
 }
 
 
-.ToolsBar > .right > button {
+.ToolsBar > .right > a {
     height: 30px;
     width: 90px;
+    text-align: center;
 }
