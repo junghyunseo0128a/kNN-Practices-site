@@ -39,7 +39,7 @@ function Navbar(props) {
                         </div>
 
                         <div class="text-end">
-                            <button type="button" class="btn btn-light text-dark me-2">Login</button>
+                            <a href='login.html' class="btn btn-light text-dark me-2">Login</a>
                             <button type="button" class="btn btn-primary">Sign-up</button>
                         </div>
                     </div>
