@@ -1,0 +1,35 @@
+.ToolsBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-bottom: 1px solid gray;
+}
+
+.ToolsBar > .left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2%;
+    width: 100%
+}
+
+.ToolsBar > .right {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 2%;
+    width: 100%;
+}
+
+.ToolsBar > .left > a {
+    text-align: center;
+    height: 30px;
+    width: 90px;
+}
+
+
+.ToolsBar > .right > button {
+    height: 30px;
+    width: 90px;
+}

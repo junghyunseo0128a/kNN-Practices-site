@@ -1,0 +1,15 @@
+.TitleBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-bottom: 1px solid gray;
+}
+
+.TitleBar > svg {
+    margin: 0 2%;
+}
+
+.TitleBar > h2 {
+    position: relative;
+}

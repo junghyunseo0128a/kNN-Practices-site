@@ -13,7 +13,9 @@
     <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 
     <!--customed css-->
-    <link href="component/Navbar.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+    <link href="component/TitleBar.css" rel="stylesheet">
+    <link href="component/ToolsBar.css" rel="stylesheet">
 
     <title>kNN practice site</title>
 
@@ -24,14 +26,15 @@
     <div id="root"></div>
 
     <!--component-->
-    <script type='text/babel' src="component/Navbar.js"></script>
+    <script type='text/babel' src="component/TitleBar.js"></script>
+    <script type='text/babel' src="component/ToolsBar.js"></script>
 
     <script type='text/babel'>
         function CreateReact(props) {
             return (
                 <div class='CreateReact'>
-                    <Navbar />
-                    
+                    <TitleBar />
+                    <ToolsBar />
                 </div>
             );
         }

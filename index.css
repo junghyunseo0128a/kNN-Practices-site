@@ -1,0 +1,5 @@
+/*a tag 밑줄과 색 없애기*/
+
+a:link { color: black; text-decoration: none;}
+a:visited { color: black; text-decoration: none;}
+a:hover { color: black; text-decoration: none;}
