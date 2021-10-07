@@ -4,12 +4,15 @@
     align-items: center;
     height: 50px;
     border-bottom: 1px solid gray;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
+/*---------------------*/
+
 .TitleBar > svg {
-    margin: 0 2%;
+    margin: 0 1%;
 }
 
 .TitleBar > h2 {
-    position: relative;
+    
 }
